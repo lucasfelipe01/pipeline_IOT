@@ -14,7 +14,7 @@ O fluxo de trabalho do projeto envolve:
 ### Pré-requisitos:
 - Python 3.8+
 - Docker
-- Conta no GitHub
+- Conta no GitHub e no Kaggle
 
 ### Passos para configurar o ambiente:
 1. Clone o repositório:
@@ -24,8 +24,7 @@ O fluxo de trabalho do projeto envolve:
    cd pipeline_IOT
 2. Crie e ative um ambiente virtual Python:
 
-```bash
-Copiar código
+  ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate      # Windows
@@ -82,3 +81,7 @@ CREATE VIEW temp_max_min_por_dia AS
 SELECT DATE(timestamp) as data, MAX(temperature) as temp_max, MIN(temperature) as temp_min
 FROM temperature_readings
 GROUP BY data;
+
+![Captura de tela 2024-11-03 123323](https://github.com/user-attachments/assets/fdab9ddf-4967-4224-80a3-8330230c8d86)
+
+
