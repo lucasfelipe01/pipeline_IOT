@@ -19,19 +19,17 @@ O fluxo de trabalho do projeto envolve:
 ### Passos para configurar o ambiente:
 1. Clone o repositório:
 
-   ```bash
+   ```
    git clone https://github.com/lucasfelipe01/pipeline_IOT
    cd pipeline_IOT
 2. Crie e ative um ambiente virtual Python:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate      # Windows
+  python -m venv venv
+  source venv/bin/activate  # Linux/Mac
+  venv\Scripts\activate      # Windows
 
 3. Instale as dependências necessárias:
 
-```bash
 pip install pandas psycopg2-binary sqlalchemy streamlit plotly
 
 4. Configure o banco de dados PostgreSQL com Docker:
