@@ -24,7 +24,7 @@ O fluxo de trabalho do projeto envolve:
    cd pipeline_IOT
 Crie e ative um ambiente virtual Python:
 
-bash
+```bash
 Copiar código
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -32,7 +32,7 @@ venv\Scripts\activate      # Windows
 
 Instale as dependências necessárias:
 
-bash
+```bash
 Copiar código
 pip install pandas psycopg2-binary sqlalchemy streamlit plotly
 
@@ -40,7 +40,7 @@ Configure o banco de dados PostgreSQL com Docker:
 
 Inicie o contêiner PostgreSQL:
 
-bash
+```bash
 Copiar código
 docker run --name postgres-iot -e POSTGRES_PASSWORD=sua_senha -p 5432:5432 -d postgres
 
@@ -48,13 +48,13 @@ Carregue os dados CSV para o banco de dados:
 
 Execute o script de processamento:
 
-bash
+```bash
 Copiar código
 python pipeline.py
 
 Execute o painel Streamlit:
 
-bash
+```bash
 Copiar código
 streamlit run dashboard.py
 
