@@ -5,7 +5,7 @@ Este projeto implementa um pipeline de dados para processar e armazenar leituras
 
 O fluxo de trabalho do projeto envolve:
 
-- Processar um arquivo CSV (temperaturas.csv) com leituras de temperatura de dispositivos IoT.
+- Processar um arquivo CSV (IOT-temp.csv) com leituras de temperatura de dispositivos IoT.
 - Armazenar os dados em um banco de dados PostgreSQL usando SQLAlchemy.
 - Criar visualizações dinâmicas dos dados via Streamlit.
 
@@ -29,6 +29,7 @@ Copiar código
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate      # Windows
+
 3. Instale as dependências necessárias:
 
 ```bash
