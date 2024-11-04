@@ -88,16 +88,16 @@ GROUP BY data;
 ```
 
 
-##Capturas de Tela do Dashboard
+## Capturas de Tela do Dashboard
 
 
 
 
-1. Média de temperatura por dispositivo: 
+## 1. Média de temperatura por dispositivo: 
 ![Captura de tela 2024-11-03 123323](https://github.com/user-attachments/assets/fdab9ddf-4967-4224-80a3-8330230c8d86)
-2. Leituras por Hora do Dia:
+## 2. Leituras por Hora do Dia:
 ![Captura de tela 2024-11-03 123435](https://github.com/user-attachments/assets/cd8054f2-07cd-43f1-865b-d02321e20d51)
-3. Temperaturas Máximas e Mínimas por Dia: 
+## 3. Temperaturas Máximas e Mínimas por Dia: 
 ![Captura de tela 2024-11-03 123454](https://github.com/user-attachments/assets/190c1c17-9d03-420a-bff2-e66b861db6c0)
 
 
